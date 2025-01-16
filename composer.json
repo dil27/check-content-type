@@ -1,0 +1,31 @@
+{
+    "name": "maxximum/check-content-type",
+    "description": "A Laravel package to check content type in API requests",
+    "keywords": ["laravel", "middleware", "content-type"],
+    "homepage": "https://github.com/dil27/check-content-type",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZeroRatenzy",
+            "email": "me@zeroratenzy.web.id",
+            "homepage": "https://zeroratenzy.web.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maxximum\\CheckContentType\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maxximum\\CheckContentType\\CheckContentTypeServiceProvider"
+            ]
+        }
+    }
+}

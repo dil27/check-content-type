@@ -1,5 +1,5 @@
 {
-    "name": "maxximum/check-content-type",
+    "name": "artristik/check-content-type",
     "description": "A Laravel package to check content type in API requests",
     "keywords": ["laravel", "middleware", "content-type"],
     "homepage": "https://github.com/dil27/check-content-type",
